@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# About
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,12 +6,49 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 
 
+## Installation
 
-## Available Scripts
+### Prerequisites
 
-In the project directory, you can run:
+<details>
+  <summary><a href="https://github.com/nvm-sh/nvm">nvm</a></summary>
 
-### `yarn start`
+  ```shell
+  brew install nvm
+  ```
+
+</details>
+<details>
+  <summary><a href="https://nodejs.org/en/">Node.js v17</a></summary>
+
+  ```shell
+  nvm install v17.4.0
+  ```
+
+</details>
+<details>
+  <summary><a href="https://yarnpkg.com/">Yarn</a></summary>
+
+  ```shell
+  npm install --global yarn
+  ```
+
+</details>
+
+### Installation
+
+Install NPM packages:
+
+```shell
+yarn install
+```
+
+### Development
+
+To start the application in the development mode run:
+
+```shell
+yarn start
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
